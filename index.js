@@ -25,3 +25,10 @@ function greet() {
 }
 
 greet(); // Output: Hello, Bob
+
+function printItem(item, index) {
+  console.log(index + ": " + item);
+}
+
+const fruits = ["apple", "banana", "cherry"];
+fruits.forEach(printItem); // <-- Use the exact function name here
