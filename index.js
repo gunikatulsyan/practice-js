@@ -7,3 +7,6 @@ console.log(colors);
 
 const sum = 7 + 3;
 console.log(sum);
+
+const ave = sum / 2;
+console.log(ave);
