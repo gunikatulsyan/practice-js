@@ -31,4 +31,12 @@ function printItem(item, index) {
 }
 
 const fruits = ["apple", "banana", "cherry"];
-fruits.forEach(printItem); // <-- Use the exact function name here
+fruits.forEach(printItem);
+
+const person = {
+  name: "John",
+  age: 25,
+  isStudent: true,
+};
+console.log(person.name);
+console.log(person.age);
